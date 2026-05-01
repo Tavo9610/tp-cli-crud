@@ -1,6 +1,6 @@
 import { getUsers, createUser, updateUser, deleteUser } from "./controllers.js"
 
-// add juancito juan@gmail.com aguanteelddl
+
 const argv = process.argv
 const params = argv.slice(2)
 const operacion = params[0]

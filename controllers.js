@@ -38,7 +38,7 @@ const updateUser = async (id, updates) => {
   if (response.affectedRows === 0) {
     return "Usuario no encontrado";
   }
-  return "Usuario actualizado exitosamente";
+  return "Usuario actualizado ";
 }
 
 const deleteUser = async (id) => {
